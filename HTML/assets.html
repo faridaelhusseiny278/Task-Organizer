@@ -1,0 +1,287 @@
+//MODIFIED HERE!!
+<!-- maynfa3sh ykon feeh aktar mn body w aktar mn head -->
+<!-- Image is inline: ya3ny msh by7ot benhom new line by7otohom gamb ba3d -->
+<!-- li element is a block NOT Inline -->
+<!DOCTYPE html>
+<html lang = "en">
+    <!-- Adding style element inside head -->
+<head>
+
+<style>
+    h1{color:red;}
+    p{color:blue;}
+    h2{color:chartreuse;}
+
+
+    .city{
+        background-color: aqua;
+        color: white;
+        padding: 10px;
+    }
+    .main{
+        text-align: center;
+    }
+
+
+    #Header{
+        background-color: beige;
+    }
+
+    table,th,td{
+        border:1px solid black;
+    }
+</style>
+
+
+    <meta character = "UTF-8">
+    <meta name = "viewport" content="width= ul>>, initial-scale = 1.0">
+        <title>
+            Lab2
+        </title>
+</head>
+<body>
+
+<ul>
+    <!-- to convert list to be in navigation bar -->
+<li style= "list-style-type:none; display: inline;">
+    element number 1
+</li>
+
+<li style= "list-style-type:none; display: inline;">
+    element number 2
+</li>
+
+<li style= "list-style-type:none; display: inline;">
+    element number 3
+</li>
+</ul>
+
+<!-- --------------------------------------------------------------------------- -->
+<!-- maynfa3sh a7ot el display f ul -->
+
+<ul style="list-style-type:square">
+    <li>
+        coffee    
+    </li>
+    <li>
+        milk
+    </li>
+    <li>
+        tea
+    </li>
+</ul>
+
+<!-- --------------------------------------------------------------------------- -->
+<ol type="A">
+    <li>
+        element 1    
+    </li>
+    <li>
+        element 2   
+    </li>
+    <li>
+        element 3    
+    </li>
+</ul>
+
+<!-- ---------------------------------Reversed Lists-------------------------------------- -->
+
+<!-- el start btshta3'al fel 1 2 3 bas , el reverse btshta3'al f kolo 3ady -->
+<ol reversed type="1"start= "100">
+    <li>
+        element 1    
+    </li>
+    <li>
+        element 2   
+    </li>
+    <li>
+        element 3    
+    </li>
+</ul>
+
+<!-- --------------------------------Nested Lists--------------------------------------- -->
+
+<!-- dt represents the term or element to be described -->
+<h2> Description List</h2>
+<dl>
+    <dt>
+        element 1    
+    </dt>
+    <dd>
+        -element 1.1
+    </dd>
+    <dt>
+        element 2
+    </dt>
+    <dd>
+        element 2.1
+    </dd>
+    <dt>
+        element 3
+    </dt>
+    <dd>
+        element 3.1
+    </dd>
+</dl>
+<!-- ---------------------------------Nested Lists-------------------------------------- -->
+<ul>
+    <li>
+        coffee
+    </li>
+    <li> Tea
+        <ul>
+            <li>
+                Black Tea
+            </li>
+            <li>
+                Green Tea
+            </li>
+        </ul>
+    </li>
+    <li>
+        Milk
+    </li>
+</ul>
+<!-- -----------------------------------Abbreviations---------------------------------- -->
+
+<p> the <abbr title = "Hypertext Markup Language"> HTML</abbr> is the standard markup language for creating web pages </p>
+
+<!-- ------------------------------------Div Element--------------------------------------- -->
+
+<div style = "border: 1px solid black">Hello World</div>
+
+<br>
+<div style = "border: 1px solid black">
+<h1>Hello World</h1>
+</div>
+
+<br>
+<div style = "border: 4px solid rgb(115, 22, 201)">
+<p style="background-color:rgb(226, 61, 157);"> 
+    This is a paragraph 
+    line 1
+    line 2
+    line 3
+</p>    
+</div>
+
+<br>
+<div style = "border: 1px solid rgb(110, 30, 30)">
+<image src= "center_2023_09_28_15_15_44_092.jpg" alt="text">
+</image>
+</div>
+
+<br>
+<div style = "background-color:black;color: white; padding: 20px; border: 4px solid rgb(179, 59, 89)">
+    <p style="background-color:rgb(226, 61, 157);"> 
+        This is a paragraph 
+        line 1
+        line 2
+        line 3
+    </p>    
+</div>
+
+<br>
+<div style = "border: 4px solid rgb(145, 176, 211)">
+    <ul>
+        <li>
+            coffee
+        </li>
+        <li> Tea
+            <ul>
+                <li>
+                    Black Tea
+                </li>
+                <li>
+                    Green Tea
+                </li>
+            </ul>
+        </li>
+        <li>
+            Milk
+        </li>
+    </ul>
+</div>
+<!-- ---------------------------------Span Element-------------------------------------- -->
+<!-- by5aleeny a3'ayar f goz2 mo3ayan mn el text -->
+
+<p>
+    The <span style = "color:blue; font-weight:bold;"> Span </span> element changes the style for a specific word.
+</p>
+
+<!-- ---------------------------------inline style has higher priority than style elements in head-------------------------------------- -->
+
+<p style="color: rgb(39, 4, 71);">
+This is a paragraph that has a different color other than the color in the style element
+</p>
+
+<!-- ---------------------------------class-------------------------------------- -->
+<!-- momkn two paragraphs adeehom nafs esm el class bas da mayenfa3sh fel ID -->
+<!-- momkn el element el wa7ed ya5od aktar mn class w momkn el class yesta5dem aktar mn element-->
+<!-- mayenfa3sh aktar mn element ykon leeh nafs el ID -->
+
+
+<div class = "city">
+    <h2>
+        London
+    </h2>
+    <p> London is a city in UK</p>
+</div>
+
+<div class = "city">
+    <h2>
+        Paris
+    </h2>
+    <p> Paris is a city in France</p>
+</div>
+
+
+<h2 class = "city  main">London</h2>
+<h2 class = "city">Paris</h2>
+<h2 class = "city">Tokyo</h2>
+
+<!-- ---------------------------------ID-------------------------------------- -->
+<!-- ID is case sensitive -->
+<!-- maynfa3sh abda2o b rakam wala ykon feeh white spaces -->
+
+
+<h1 id= "Header"> My Header</h1>
+
+<!-- ---------------------------------Tables-------------------------------------- -->
+<!-- awel row hwa esm el column -->
+<table style = "width:  100%;">
+<tr>
+    <th>
+        company
+    </th>
+    <th>
+        contract
+    </th>
+    <th>
+        country
+    </th>
+<tr>
+    <th>
+        employee_1
+    </th>
+    <th>
+        employee_2
+    </th>
+    <th>
+        employee_3
+    </th>
+</tr>
+    <th>
+        element_1
+    </th>
+    <th>
+        element_2
+    </th>
+    <th>
+        element_3
+    </th>
+
+</table>
+
+</body>
+</html>
